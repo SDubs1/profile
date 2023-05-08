@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body {
+  color: #F6F1F1;
+  background-color: #161630;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+div {
+  border-top: 1px solid hotpink;
+  border-right: 2px dotted black;
+  border-bottom: 1px solid hotpink;
+  border-left: 2px dotted black;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background: rgb(57, 8, 136);
+  padding: 30px;
+  border: 1px solid #F6F1F1;
+}
+
+.list_bio {
+  list-style-position: inside;
+  text-align: left;
+}
+
+a {
+  color: rgb(0, 228, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 99, 99);
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: red;
+}
+
+.link_list {
+  list-style: none;
+  padding: 0;
+}
